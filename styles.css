@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    height: 800px;
+    margin: 0px;
+}
+
+h1 {
+  margin-bottom: 0px;
+
+}
+
+.btn-icon {
+  width: 14px;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  color: #D1C6AD;
+}
+
+.arrow {
+  height: 70px;
+  width: 70px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.threexthree {
+  float: left;
+  display: flex;
+  flex-wrap:wrap;
+  color: #D1C6AD;
+  width: 60%;
+  height: 600px;
+
+}
+
+form {
+  display: inline-flex;
+}
+
+button {
+color: #D1C6AD;
+padding: 10px 20px 10px 10px;
+border: solid #D1C6AD 2px;
+background-color: #2A324B;
+margin-left: : 0px;
+}
+
+.grid {
+  display: flex;
+  width: 33.3333%;
+  height: 33.33333%;
+  text-align: center;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.grid-1 {
+  display: flex;
+  background-color: #2A324B;
+  width: 66.6666%;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-content: space-around;
+  padding-left: 20px;
+}
+
+.grid-2 {
+  background-color: #E1E5EE;
+  color: #2A324B;
+}
+
+.grid-3 {
+  background-color: #767B91;
+
+}
+
+.grid-4 {
+  background-color: #2E2F41;
+
+}
+
+.grid-5 {
+  background-color: #2A324B;
+
+}
+
+.grid-6 {
+  background-color: #D1C6AD;
+  color: #2A324B;
+
+}
+
+.grid-7 {
+  background-color: #C7CCDB;
+  color: #2A324B;
+
+}
+
+.grid-8 {
+  background-color: #D1C6AD;
+  color: #2A324B;
+
+}
+
+.grid-9 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  float: right;
+  width: 40%;
+  height: 100vh;
+  background-image: url(images/mark-portrait.jpg);
+  color: #D1C6AD;
+}
+@media screen and (max-width: 1024px) {
+  .threexthree {
+    width: 100%;
+    float:right;
+  }
+  .grid-9 {
+    width:100%;
+    height: 200px;
+    float: left;
+  }
+  .container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .grid-9 {
+    height: 400px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  html {
+    height: 100%;
+  }
+
+  body {
+    min-height: 100%;
+  }
+
+  .container {
+    flex-direction: row;
+    height: 100%;
+  }
+
+  .icon {
+
+  }
+
+  .threexthree {
+    height: 100%;
+  }
+
+  .grid-9 {
+    height: 100%;
+  }
+}
