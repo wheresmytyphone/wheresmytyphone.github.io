@@ -6,6 +6,7 @@ body {
     font-family: 'Varela Round', sans-serif;
     height: 100vh;
     margin: 0px;
+    background-color: #E1E5EE;
 }
 
 h1 {
@@ -130,6 +131,7 @@ display: flex;
   background-size: cover;
   background-position: center;
 }
+
 
 @media screen and (max-width: 1024px) {
   .threexthree {
